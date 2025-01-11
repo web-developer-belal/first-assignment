@@ -30,7 +30,14 @@ main{
     padding: 9px 14px;
     border-radius: 6px;
     border:none;
+    width: fit-content;
     }
+
+.section-title{
+    font-weight: 700;
+    color:var(--main-color);
+    margin-bottom: 14px;
+}
 /* Header section */
 
 header{
@@ -74,4 +81,49 @@ header{
     color:white;
     font-weight: 600;
     padding:13px 13px;
+}
+
+/* Vision section */
+#vision{
+    margin-top: 30px;
+}
+
+.vision-wrapper{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top: 20px;
+}
+
+.vision-card{
+    width: 33.33%;
+    padding:20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.vision-card .icon{
+    width: 50px;
+}
+
+.vision-card.one{
+    background: #257ffde0;
+}
+.vision-card.one .btn{
+    background: #0f2e5968;
+}
+
+.vision-card.two{
+    background: #257ffde0;
+}
+.vision-card.two .btn{
+    background: #0f2e5968;
+}
+
+.vision-card.three{
+    background: #257ffde0;
+}
+.vision-card.three .btn{
+    background: #0f2e5968;
 }
