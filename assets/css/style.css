@@ -19,6 +19,7 @@
 
 body{
     font-family: "Open Sans", serif;
+    background: #F1F1F3;
 }
 
 main{
@@ -126,4 +127,58 @@ header{
 }
 .vision-card.three .btn{
     background: #0f2e5968;
+}
+
+/* News section */
+#news{
+    margin-top: 30px;
+}
+.article-wrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+    
+}
+article{
+    display: flex;
+    gap:10px;
+    padding:15px;
+    background: white;
+    border-radius: 10px;
+}
+article.reverse{
+    flex-direction: row-reverse;
+}
+article img{
+    width: 40%;
+    max-height: auto;
+    border-radius: 10px;
+}
+article .content{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+article .content .title{
+    font-weight: 700;
+    font-size: 23px;
+}
+article .content .author{
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    gap:4px;
+    align-items: center;
+}
+article .content .time{
+    font-size: 10px;
+}
+article .content p{
+    font-size:14px;
+}
+
+article .content .btn{
+    background: var(--btn-1-bg);
+    color:white;
 }
