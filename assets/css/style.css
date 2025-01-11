@@ -39,6 +39,9 @@ main{
     color:var(--main-color);
     margin-bottom: 14px;
 }
+.text-center{
+    text-align: center;
+}
 /* Header section */
 
 header{
@@ -179,6 +182,52 @@ article .content p{
 }
 
 article .content .btn{
+    background: var(--btn-1-bg);
+    color:white;
+}
+
+/* Donate section */
+#donate{
+    margin-top: 30px;
+}
+
+.donate-wrapper{
+    margin:20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:14px;
+}
+.donate{
+    font-weight: 900;
+    min-width: 100px;
+    border:1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border-radius: 10px;
+    background: white;
+    font-size: 22px;
+    padding:20px
+}
+
+.custom-amount-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+.custom-amount-form input{
+    width: 100%;
+    padding:15px;
+    border:0;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.custom-amount-form .btn{
     background: var(--btn-1-bg);
     color:white;
 }
